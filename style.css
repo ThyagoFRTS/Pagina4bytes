@@ -1,0 +1,32 @@
+#container {
+/* formatação do box */
+width:100%;
+background:#f6f6f6;
+border-radius:10px;
+padding:8px;
+margin-top: 50px;
+    
+/* box shadow-- Sombreado */
+box-shadow: 5px 9px 30px 1px rgba(0, 0, 0, 0.5);
+webkit-box-shadow: 5px 9px 30px 1px rgba(0, 0, 0, 0.5); /*Para funcionar em navegadores webkit*/
+moz-box-shadow: 5px 9px 30px 1px rgba(0, 0, 0, 0.5); /*Para funcionar no navegador FireFox*/
+
+}
+
+.Descricao_Titulo{
+	color: #FF0000;
+	font-family: new gothicMT;
+	font-size: 50px;
+}
+
+.Descricao_Resumo{
+	color:#FF0000;
+	font-family: arial;
+	font-size: 25px;
+}
+
+.scrollspySite{
+	position: relative;
+	overflow: auto;
+	height: 360px;
+}
