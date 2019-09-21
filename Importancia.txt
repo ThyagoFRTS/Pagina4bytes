@@ -1,3 +1,4 @@
+--------IMPORTANCIA--------
 Dado o baixo custo energético dos microcontroladores e microprocessadores atuais, a casa inteligente oferece vantagens
 para o consumo e disperdício energético, tendo em vista que o monitoramento de recursos não utilizados poderiam ser
 facilmente desligados pois estariam interconectados aos demais aparelhos do ambiente. Esta linha pode se expandir para
@@ -7,3 +8,17 @@ e bem-estar. De maneira similar, também é exercido um sistema de segurança e 
 mantendo-o informado com mensagens de texto e/ou informações de multimídia, tal sistema pode ser configurado para que as pessoas
 de sua confiaça como parentes e amigos sejam permitidos a manterem estadia em sua casa, oferecendo-os a mesma segurança oferecida
 ao dono da residência.
+------------IOT-----------
+A casa inteligente se encontra dentro de um movimento maior denominado Internet das Coisas, do inglês Internet of Things, tal
+movimento traz consigo a ideia de um mundo interconectado, não somente casas, nas indústrias no que diz respeito a automação de processos
+maçantes durante a produção, potencializando e monitorando a os equipamentos através da virtualização de processos, em carros
+interativos que serão capazes de receber informações sobre possíveis congestionamentos, traçar rotas alternativas de acordo com suas necessidades e outros.
+Tal fluxo massivo de dados pelo globo será tratado pelos pilares do IoT, que são o BigData, que diz respeito a grande massa de
+dados movimentados pela rede, Machine Learning que trata das classificações, moledos e tratamento de dados em função de sua devolução ao ambiente e Sistemas 
+Embarcados, que trata de levar a tecnologia de integração aos equipamentos.
+
+
+
+
+--------EQUIPAMENTOS-------
+Dentre os pilares tecnológicos que permitem o 
