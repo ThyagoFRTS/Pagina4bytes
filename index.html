@@ -18,10 +18,18 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 	<style type="text/css">
 		#linked
 	</style>
+	
 	<title>Automation Page</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"> <!--Link para a fonte do google-->
+
+	<link rel='stylesheet' href="/css/bootstrap.min.css">
+	<link rel='stylesheet' href="/css/style.css">
+	
 
 </head>
 <body style="background-color: #F0F0FF;" class="d-flex flex-column">
@@ -46,15 +54,18 @@
 					<div class="container">Importância</div>	
 				</a>
 			</li>
-			<li class="nav-item dropdown">
+			<li class="nav-item dropdown"> <!--Combom Box-->
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
-					Combobox
+					Benefícios
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">alguma coisa</a>
-					<a class="dropdown-item" href="#">outra coisa</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">mais alguma coisa</a>
+					
+					<a class="dropdown-item" href="#item1">Adaptação do mercado condominial</a>
+					<a class="dropdown-item" href="#item2">Qualidade e estilo de vida</a>
+					<a class="dropdown-item" href="#item3">Customização com automação de iluminação residencial</a>
+					<a class="dropdown-item" href="#item4">Economia de energia</a>
+					<a class="dropdown-item" href="#item5">Integração da Automação</a>
+
 				</div>
 			</li>
 		</ul>
@@ -64,6 +75,18 @@
 		</form>
 	</div>
 </nav>
+
+
+<!-- A Casa do Futuro -->
+	<div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" id="Jumb_Importancia">
+		<div class="col-md-6 px-0">
+			<h1 class="display-4 font-italic">A Casa do Futuro</h1>
+			<p class="lead my-3">
+			No contexto da Internet das Coisas, a casa do futuro é um umabiente completamente embarcado, em que os aparelhos domésticos se comunicam e as informações de gerenciamento e relatórios poderiam ser enviadas para o seu celular. Assim você poderia ser notificado caso houver a falta de batatas.</p>
+		</div>
+	</div>
+
+
 
 <!------------ Carousel----------->
 
@@ -77,11 +100,11 @@
 			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 		</ol>
 		
-		<div class="carousel-inner">
+		<div class="carousel-inner" >
 			
-			<div class="carousel-item active">
+			<div class="carousel-item active" >
 				
-				<img src="pictures\img1.png" class="d-block w-100" alt="...">
+				<img src="pictures\Imagem1.jpg" class="d-block w-100" alt="..." height="500px">
 				<div class="carousel-caption d-none d-md-block">
 					<h3 class="Descricao_Titulo">"AQUI VAI UMA "MANCHETE"</h3>
 					<hr size>
@@ -91,10 +114,10 @@
 				
 			</div>
 			
-			<div class="carousel-item">
+			<div class="carousel-item" >
 				
-				<img src="pictures\img2.png" class="d-block w-100" alt="...">
-				<div class="carousel-caption d-none d-md-block">
+				<img src="pictures\Imagem2.jpg" class="d-block w-100" alt="..." height="500px">
+				<div class="carousel-caption d-none d-md-block" >
 					<h3 class="Descricao_Titulo">"AQUI VAI UMA "MANCHETE"</h3>
 					<hr>
 					<p class="Descricao_Resumo">"AQUI VAI UM PEQUENO TEXTO SOBRE A IMAGEM"</p>
@@ -104,7 +127,7 @@
 			
 			<div class="carousel-item">
 				
-				<img src="pictures\img3.jpg" class="d-block w-100" alt="...">
+				<img src="pictures\Imagem3.jpg" class="d-block w-100" alt="..." height="500px">
 				<div class="carousel-caption d-none d-md-block">
 					<h3 class="Descricao_Titulo">"AQUI VAI UMA "MANCHETE"</h3>
 					<hr>
@@ -126,7 +149,7 @@
 	</div>
 </div>
 
-<!-----Coisas abaixo do Crrosel-------->
+<!-----Coisas abaixo do Carrosel-------->
 <div class="container" id="#linked">
 
 	<!--Lista dos Elementos do IOT -->
@@ -143,14 +166,20 @@
 			<a class="p-2 text-muted" >Segurança Cibernética</a>
 		</nav>
 	</div>
-	<!-- A Casa do Futuro -->
-	<div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-		<div class="col-md-6 px-0">
-			<h1 class="display-4 font-italic">A Casa do Futuro</h1>
-			<p class="lead my-3">
-			No contexto da Internet das Coisas, a casa do futuro é um umabiente completamente embarcado, em que os aparelhos domésticos se comunicam e as informações de gerenciamento e relatórios poderiam ser enviadas para o seu celular. Assim você poderia ser notificado caso houver a falta de batatas.</p>
+	
+
+	<!-- Importancia -->
+	<div class="container">
+		<div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" id="Jumb_Importancia"  >
+			<div class="col-md-6 px-0">
+				<h1 class="display-4 font-italic">A Casa do Futuro</h1>
+				<p class="lead my-3">
+				No contexto da Internet das Coisas, a casa do futuro é um umabiente completamente embarcado, em que os aparelhos domésticos se comunicam e as informações de gerenciamento e relatórios poderiam ser enviadas para o seu celular. Assim você poderia ser notificado caso houver a falta de batatas.</p>
+			</div>
 		</div>
 	</div>
+	
+
 	<!--DIV DOS CARDS -->
 	<div class="row mb-2">
 		<!--CARD 1 -->
@@ -189,14 +218,14 @@
 </div>
 <!--IMAGEM GRANDONA-->
 <div>
-	<div>
-		<img  src="Pictures\network.png" align="center" height="800" width="1340">
+	<div align="center" >
+		<img  src="Pictures\network.png" align="center" height="800" width="1340" >
 	</div>
 </div>	
 
 <!--Benefícios-->
-<div class="container" id="beneficios">
-	<div class="row mb-5" >
+<div class="container" id="benefícios">
+	<div class="row mb-5"  >
 		<div class="col-12" >
 			<h1 style="text-align: center" display-3>Benefícios da automação residencial</h1>
 		</div>
