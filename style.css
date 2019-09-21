@@ -24,3 +24,9 @@ moz-box-shadow: 5px 9px 30px 1px rgba(0, 0, 0, 0.5); /*Para funcionar no navegad
 	font-family: arial;
 	font-size: 25px;
 }
+
+.scrollspySite{
+	position: relative;
+	overflow: auto;
+	height: 330px;
+}
