@@ -36,7 +36,10 @@
 	<!----------------- Cabeçalho -------------------->
 	<!-----------Navibar---------->	
 	<nav class="navbar navbar-expand-lg navbar-light bg-dark ">	
-		<a class="navbar-brand" href="#" style="color:#D3D3D3" >Automação Residencial</a>
+		<a class="navbar-brand" href="#" style="color:#D3D3D3" >
+		<img src="Pictures\logo.png" width="30" height="30" class="d-inline-block align-top">
+		4Bytes
+		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="
 		false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -50,10 +53,31 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#modal" style="color: white;">
+				<a class="nav-link" href="#card1" style="color: white;">
 					<div class="container">Importância</div>	
 				</a>
 			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#card2" style="color: white;">
+					<div class="container">IoT</div>	
+				</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#card3" style="color: white;">
+					<div class="container">Equipamentos</div>	
+				</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#Jumb_Importancia" style="color: white;">
+					<div class="container">Casa do Futuro</div>	
+				</a>
+			</li>
+
+			
+
 			<li class="nav-item dropdown"> <!--Combom Box-->
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
 					Benefícios
@@ -68,11 +92,24 @@
 
 				</div>
 			</li>
+			
 		</ul>
+		<ul class="navbar-nav mr-sm-0">
+		<li class="nav-item ">
+				<a class="nav-link" href="#redesSociais" style="color: white;">
+					<div class="container">Contate-nos</div>	
+				</a>
+		</li>
+		</ul>
+		<!--
 		<form class="form-inline my-2 my-lg-2">
 			<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
 			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
 		</form>
+		-->
+
+
+
 	</div>
 </nav>
 
@@ -268,39 +305,52 @@
 
 <!--Cards do final da página ----->
 <div class="row mb-5">
-	<div class="col-sm-6">
+	<div class="col-sm-4 ">
 		
-		<div class="card">
-			<img class="card-img-top" src="Pictures/img11.jpg">
+		<div class="card" id="card1">
+			<img class="card-img-top" src="Pictures/Imagem2.jpg">
 			<div class="card-body">
 				<h4 class="card-title">Automação Residencial</h4>
-				<h6 class="card-subtitle mb-2 text-muted">Qual a importância?</h6>
-				<p class="card-text">bom dia</p>
-				<a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Saiba mais...</a>
+				
+				<p class="card-text mb-2">Qual a importância?</p>
+				<a href="#" class="card-link" data-toggle="modal" data-target="#siteModal1">Saiba mais...</a>
 			</div>
 		</div>
 		
 	</div>
-	
-	<div class="col-sm-6">
-			<div class="card">
-				<img class="card-img-top" src="Pictures/img11.jpg">
+
+	<!--Segundo card (IoT)-->
+	<div class="col-sm-4">
+			<div class="card" id="card2">
+				<img class="card-img-top" src="Pictures/Imagem1.jpg">
 				<div class="card-body">
-					<h4 class="card-title">Automação Residencial</h4>
-					<h6 class="card-subtitle mb-2 text-muted">Qual a importância?</h6>
-					<p class="card-text">bom dia</p>
-					<a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Saiba mais...</a>
+					<h4 class="card-title">IoT</h4>
+					<h6 class="card-subtitle text-muted">Internet of Thigs (Internet das Coisas)</h6>
+					<p class="card-text">O que significa?</p>
+					<a href="#" class="card-link" data-toggle="modal" data-target="#siteModal2">Saiba mais...</a>
 				</div>
 			</div>
 	</div>
 
+	<!--Terceiro card (Equipamentos)-->
+	<div class="col-sm-4">
+			<div class="card" id="card3">
+				<img class="card-img-top" src="Pictures/Imagem3.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Equipamentos</h4>
+					<h6 class="card-subtitle  text-muted"></h6>
+					<p class="card-text">Quais seriam os equipamentos necessários para esse tipo de automação?</p>
+					<a href="#" class="card-link" data-toggle="modal" data-target="#siteModal3">Saiba mais...</a>
+				</div>
+			</div>
+	</div>
 
 </div>
 
 
 <!----------Modal----------->
-<div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
-	<div class="modal-dialog" role="document"><
+<div class="modal fade" id="siteModal1" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-lg" role="document"><
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title">Importância</h5>
@@ -308,7 +358,40 @@
 				<span>&times;</span> <!--Botão do x mais bonitinho *-* -->
 			</div>
 			<div class="modal-body">
-				<p>KDPOASK</p>
+				<p style="text-align: justify">Dado o baixo custo energético dos microcontroladores e microprocessadores atuais, a casa inteligente oferece vantagens
+					para o consumo e disperdício energético, tendo em vista que o monitoramento de recursos não utilizados poderiam ser
+					facilmente desligados pois estariam interconectados aos demais aparelhos do ambiente. Esta linha pode se expandir para
+					o ambiente de trabalho, não se restringindo ao residencial. Ademais, a eficiência do dia a dia pessoal seria aprimorado,
+					a casa inteligente seria capaz capturar dados do clima em tempo real e notificá-lo com devidas orientções para sua saúde
+					e bem-estar. De maneira similar, também é exercido um sistema de segurança e monitoramento integrado ao seu dispositívo móvel,
+					mantendo-o informado com mensagens de texto e/ou informações de multimídia, tal sistema pode ser configurado para que as pessoas
+					de sua confiaça como parentes e amigos sejam permitidos a manterem estadia em sua casa, oferecendo-os a mesma segurança oferecida
+					ao dono da residência.</p>
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">OK!</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="siteModal2" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-lg" role="document"><
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">IoT</h5>
+				<button type="button" class="close" data-dismiss="modal"></button>
+				<span>&times;</span> <!--Botão do x mais bonitinho *-* -->
+			</div>
+			<div class="modal-body">
+				<p style="text-align: justify">A casa inteligente se encontra dentro de um movimento maior denominado Internet das Coisas, do inglês Internet of Things, tal
+				movimento traz consigo a ideia de um mundo interconectado, não somente casas, nas indústrias no que diz respeito a automação de processos
+				maçantes durante a produção, potencializando e monitorando a os equipamentos através da virtualização de processos, em carros
+				interativos que serão capazes de receber informações sobre possíveis congestionamentos, traçar rotas alternativas de acordo com suas necessidades e outros.
+				Tal fluxo massivo de dados pelo globo será tratado pelos pilares do IoT, que são o BigData, que diz respeito a grande massa de
+				dados movimentados pela rede, Machine Learning que trata das classificações, moledos e tratamento de dados em função de sua devolução ao ambiente e Sistemas 
+				Embarcados, que trata de levar a tecnologia de integração aos equipamentos.</p>
 			</div>
 
 			<div class="modal-footer">
@@ -319,8 +402,35 @@
 </div>
 
 
-	<!----Rodapé ---->
-	<footer  class=" mb-1 bg-dark text-white-50">
+<div class="modal fade" id="siteModal3" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-lg" role="document"><
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Equipamentos</h5>
+				<button type="button" class="close" data-dismiss="modal"></button>
+				<span>&times;</span> <!--Botão do x mais bonitinho *-* -->
+			</div>
+			<div class="modal-body">
+				<p style="text-align: justify">Tudo que tiver conectividade elétrica pode ser automatizado. Sendo assim, muitos produtos eletrônicos já são inteligentes,
+				 ou seja, já possuem conectividade que permite ao usuário gerenciar, controlar e automatizar suas funções.
+				 Quando pensamos em soluções mais avançadas para uma casa inteligente, partimos para uma conectividade 
+				 e integração de diversos sistemas e equipamentos de toda residência.Para uma solução mais completa 
+				 de uma casa automatizada é necessário uma controladora (central hub) onde todos os equipamentos 
+				 serão conectados (via wi-fi ou cabo).Essa central terá uma interface para o usuário gerenciar 
+				 e controlar todos os equipamentos.</p>
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">OK!</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!----Rodapé ---->
+	<footer  class=" mb-1 bg-dark text-white-50" id="redesSociais">
 		<div class=".container-fluid" style="background-color: #000000;"; align="center" >
 			<img src="Pictures\Marca Branco.png" width="200" height="70" alt="logo" style="padding-top: 14px;">
 			<h2 >Contate-nos:</h2>
